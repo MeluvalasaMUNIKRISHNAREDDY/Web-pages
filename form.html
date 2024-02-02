@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <link rel="stylesheet" href="logi.css">
+    <style>
+        .a2{
+            margin-top: 5px;
+            width: 50px;
+            border: 3px solid rgb(38, 36, 36);
+            background-color: blanchedalmond;
+            text-align: center;
+        }
+        .a2 a{
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .a3{
+            display: flex;
+        }
+    </style>
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="login-container">
+        <form class="login-form">
+            <h2>Login</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Login</button>
+            <div class="a3">
+            <div class="a2"><a href="../forget.html">Forget</a></div>
+            <div class="a1"><a href="../newuserforLogin.html">New User</a></div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
